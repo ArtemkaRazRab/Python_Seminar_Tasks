@@ -1,19 +1,19 @@
 # Задача 13 - Запись в файл словаря
 
-# my_dict={
-#     1: 'One',
-#     2: 'Two'
-# }
-# data=open('test.txt', 'w')
-# for i in my_dict:
-#     data.write(my_dict[i])
-#     data.write(' ')
-# data.close()
+my_dict={
+    1: 'One',
+    2: 'Two'
+}
+data=open('test.txt', 'w')
+for i in my_dict:
+    data.write(my_dict[i])
+    data.write(' ')
+data.close()
 
-# path='test.txt'
-# with open(path, 'r') as data:
-#     for line in data:
-#         print(line, end='')
+path='test.txt'
+with open(path, 'r') as data:
+    for line in data:
+        print(line, end='')
 
 # можно записать вот так
 
