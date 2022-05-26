@@ -25,14 +25,14 @@ print(c)
 
 # Можно записать вот так
 
-# a = int(input('Введите число a:'))
-# b = int(input('Введите число b:'))
+a = int(input('Введите число a:'))
+b = int(input('Введите число b:'))
 
-# def nok(a, b):
-#     k = 1
-#     c = max(a, b)
-#     while True:
-#         if ((c*k) % a == 0 and (c*k) % b == 0):
-#             return(c*k)
-#         k+=1
-# print(nok(a, b))
+def nok(a, b):
+    k = 1
+    c = max(a, b)
+    while True:
+        if ((c*k) % a == 0 and (c*k) % b == 0):
+            return(c*k)
+        k+=1
+print(nok(a, b))

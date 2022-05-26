@@ -4,6 +4,6 @@ my_str = my_str.split(' ')
 res = ''
 for word in my_str:
     if word.find('абв') == -1:
-        res += word + ' '
-
+        #res += word + ' '
+        res = res+ word + ' '
 print(res)
